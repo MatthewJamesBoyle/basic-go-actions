@@ -1,0 +1,12 @@
+# .golangci.yml
+linters:
+  enable:
+    - govet
+    - errcheck
+    - staticcheck
+    - gosimple
+    - unused
+
+run:
+  tests: true
+  timeout: 5m
